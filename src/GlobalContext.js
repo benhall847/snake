@@ -1,2 +1,2 @@
-import {GlobalContext} from 'core/Provider/index';
+import { GlobalContext } from "core/Provider/index";
 export default GlobalContext;

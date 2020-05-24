@@ -1,19 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
-import * as serviceWorker from './serviceWorker';
-import Provider from 'core/Provider/index';
-import { StateInspector } from "reinspect"
-
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./components/App";
+import * as serviceWorker from "./serviceWorker";
+import Provider from "core/Provider/index";
+import { StateInspector } from "reinspect";
 
 ReactDOM.render(
-      <StateInspector name="App">
-         <Provider>
-          <App />
-         </Provider>
-      </StateInspector>,
-  document.getElementById('root')
+  <StateInspector name="App">
+    <Provider>
+      <App />
+    </Provider>
+  </StateInspector>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
