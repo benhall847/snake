@@ -3,7 +3,7 @@ import { useReducer } from "reinspect";
 import initialState from "core/initalState";
 import reducer from "core/reducer";
 
-export const GlobalContext = React.createContext(null);
+export const GlobalContext = React.createContext();
 
 const Provider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
